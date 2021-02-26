@@ -5,4 +5,4 @@ In this project I plan to analyze if the Meta-VQE initialization can surpass the
 The first step of the project was to implement the Meta-VQE for pennylane and apply for solving the XXZ Hamiltonian, after implemented
 I analyzed one of the gradients with the plain VQE implementation using random initialization. 
 
-![grad](https://github.com/nahumsa/qhack21/images/grad.png)
+![grad](https://github.com/nahumsa/qhack21/blob/master/images/grad.png)
