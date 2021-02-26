@@ -1,4 +1,3 @@
-import remote_cirq
 import sys
 import pennylane as qml
 import numpy as np
@@ -8,20 +7,7 @@ from tqdm import tqdm
 
 # Setup the device
 n_qubits = 26
-# dev = qml.device("default.qubit", wires=n_qubits)
-
-
-
-
-
-API_KEY = "AIzaSyCKlvS0d1zKOIG_dXKip0hZlnu-eRXlI-Q"
-sim = remote_cirq.RemoteSimulator(API_KEY)
-
-dev = qml.device("cirq.simulator",
-                 wires=n_qubits,
-                 simulator=sim,
-                 analytic=False)
-
+dev = qml.device("default.qubit", wires=n_qubits)
 
 # Creating training data
 train_deltas = np.random.uniform(low=-1, high=1, size=5)
