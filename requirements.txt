@@ -1,0 +1,5 @@
+matplotlib==3.4.0rc1
+networkx==2.5
+numpy==1.20.1
+PennyLane==0.14.1
+tqdm==4.58.0
