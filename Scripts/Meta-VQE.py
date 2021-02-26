@@ -6,7 +6,7 @@ from cost_functions import m_vqe_cost
 from tqdm import tqdm
 
 # Setup the device
-n_qubits = 26
+n_qubits = 4
 dev = qml.device("default.qubit", wires=n_qubits)
 
 # Creating training data

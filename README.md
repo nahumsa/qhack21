@@ -10,6 +10,13 @@ This project has two parts:
 
 
 ## Results
+All results are on this [notebook](https://nbviewer.jupyter.org/github/nahumsa/qhack21/blob/master/Meta_VQE_Pennylane.ipynb).
+
+### Meta-VQE
+I sucessfuly implemented the Meta-VQE algorithm according to the [paper](https://arxiv.org/abs/2009.13545), and got similar results as the paper for the XXZ hamiltonian.
+![XXZ](https://github.com/nahumsa/qhack21/blob/master/images/XXZ.png)
+
+### Barren Plateaus
 
 Due to lack of time, I analyzed the performance of VQE using random initialization (orange) and Meta-VQE initialization (blue) and we see that it appears that the Meta-VQE initialization is able to avoid barren plateaus for this gradient as becomes constant according to the number of qubits while random initialization keeps decreasing.
 ![grad](https://github.com/nahumsa/qhack21/blob/master/images/grad.png)
